@@ -1,0 +1,7 @@
+#pensez a ajouter manuellement les fichiers qui ne doivent pas etre push sur github !
+ 
+.env
+.DS_Store
+/lib/template.rb 
+spec/templates_spec.rb 
+ 
