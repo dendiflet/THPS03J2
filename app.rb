@@ -35,10 +35,10 @@ require_relative 'lib/app/scrapper'
 # Open bar pour tester ton application. Tous les fichiers importants sont chargés
 # Tu peux faire User.new, Event.new, binding.pry, User.all, etc etc
 
-@vd_townhall_emails = Scrapper.new
+list_all_emails = Scrapper.new
 
 puts "voici l'array de 10 emails : \n "
-puts @vd_townhall_emails
+puts list_all_emails.read_and_return
 puts "fini"
 
 binding.pry
