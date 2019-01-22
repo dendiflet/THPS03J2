@@ -3,8 +3,17 @@ source "https://rubygems.org"
   gem 'rspec'
   gem 'pry'
   gem 'rubocop', '~> 0.57.2' 
-  #gem 'nokogiri'
+  gem 'nokogiri'
+
+
+
+
+####### GEMS EN STAND-BY ########
+
   #gem 'dotenv' 
  
+
+
+
 ####################  PENSER A AJOUTER LES AUTRES GEM NÉCÉSSAIRES MANUELLEMENT SVP    ######################
  #################### ou les décocher ################
