@@ -1,18 +1,18 @@
-promi, demain je me met au readme plus beau ;-)
 
 
-
-		Iannis Bretin, session n°7 de The Hacking project !
-
+# Database JSON, Google  Sheet, CSV
 
 
-bonjour a toi .
+## Projet réalisé avec amour par la team Grenoble:
 
-projet :
+• Quentin Clere
+• Charles Caserus
+• Guillaume Cornille
+• Maxime Audfray
+• Iannis Bretin
 
-enregistrement des mail des mairies du val d'oise dans une database
--> trois fichiers différents, avec extensions différentes
+## Fonctionnement
 
+Lancer `ruby app.rb` dans le terminal
 
-
-
+pour l'instant, dans ma version, le choix spreadsheet ne fonctionne pas

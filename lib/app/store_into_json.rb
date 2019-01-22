@@ -1,9 +1,9 @@
 # store_into_JSON
 
-class Json_storer
+class StoreIntoJSON
 
-	def create_and_store(mail_list)
-    File.open("../../db/email.json","w") do |f|
+	def create_file_and_write_in(mail_list)
+    File.open("database/email.json","w") do |f|
       f.write(mail_list)
     end
 		

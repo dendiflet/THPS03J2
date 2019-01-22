@@ -2,13 +2,20 @@
 
 require 'csv'
 
-class StoreIntoCsv
+class StoreIntoCSV
 
-  def store(mail)
+  def create_file_and_write_in(imput)
     #crée un fichier et écris dedans
-    CSV.open("json_emails_list.csv", "w") do |csv| mail.each_with_index do |i|
-    csv << mail[i] end
+    CSV.open("database/csv_emails_list.csv", "w") do |csv|
+      imput.each do |k , v|
+        csv << [k, v]
+      end
+    end
   end
-end
 
 end
+
+
+
+
+
