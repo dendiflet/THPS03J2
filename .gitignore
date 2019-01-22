@@ -2,6 +2,5 @@
  
 .env
 .DS_Store
-/lib/template.rb 
-spec/templates_spec.rb 
+
  

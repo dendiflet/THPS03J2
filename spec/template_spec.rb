@@ -1,5 +1,11 @@
 #appel du fichier a tester
-require_relative '../lib/nom_du_fichier' #sans extension
+require_relative '../lib/app/scrapper' #sans extension
+
+require '../lib/app/scrapper'
+require '../lib/app/email_sender'
+require '../lib/views/index'
+require '../lib/views/done'
+require '../app'
 
 ##############  les TESTS   ##################
 
@@ -11,3 +17,6 @@ describe "blablabla" do
 end
 
 #A toi de jouer
+
+
+

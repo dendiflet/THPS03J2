@@ -11,7 +11,8 @@ bonjour a toi .
 projet :
 
 enregistrement des mail des mairies du val d'oise dans une database
-trois fichier avec différentes extensions
+-> trois fichiers différents, avec extensions différentes
+
 
 
 
