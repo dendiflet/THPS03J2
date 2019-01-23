@@ -16,5 +16,6 @@
 Lancer `ruby app.rb` dans le terminal
 
 le nombre des communes scrappée a été limité aux 10 premières entrées pour des raison pratiques.
+(fichier scrapper.rb ligne 61)
 
 pour l'instant, dans ma version, le choix spreadsheet ne fonctionne pas
